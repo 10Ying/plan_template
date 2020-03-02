@@ -163,7 +163,7 @@ public class Plan {
 
     public static void main(String[] args) {
         try {
-            FileWriter myFile = new FileWriter("/Users/ying/Desktop/internet/Ying_2020.txt");
+            FileWriter myFile = new FileWriter("/Users/*.txt");
             myFile.write(writeTxt());
             myFile.close();
             System.out.println("Successfully wrote to the file.");
